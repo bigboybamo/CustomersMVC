@@ -17,6 +17,8 @@ public partial class Demo1Context : DbContext
 
     public virtual DbSet<Customer> Customers { get; set; }
 
+    public virtual DbSet<Login> Logins { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (!optionsBuilder.IsConfigured)
@@ -37,6 +39,18 @@ public partial class Demo1Context : DbContext
                 .IsUnicode(false);
             entity.Property(e => e.LastName)
                 .HasMaxLength(150)
+                .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<Login>(entity =>
+        {
+            entity.ToTable("Login");
+
+            entity.Property(e => e.Name)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Password)
+                .HasMaxLength(50)
                 .IsUnicode(false);
         });
 

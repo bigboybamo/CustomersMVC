@@ -1,0 +1,156 @@
+2022-11-15 20:40:41.644 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Customers/Create.cshtml"'.
+2022-11-15 20:40:41.657 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Customers/Delete.cshtml"'.
+2022-11-15 20:40:41.657 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Customers/Details.cshtml"'.
+2022-11-15 20:40:41.657 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Customers/Edit.cshtml"'.
+2022-11-15 20:40:41.657 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Customers/Index.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Home/Index.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Home/Index1.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Home/Privacy.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Login/Login.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Shared/Error.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Shared/_ValidationScriptsPartial.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/_ViewImports.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/_ViewStart.cshtml"'.
+2022-11-15 20:40:41.658 +01:00 [Debug] Initializing Razor view compiler with compiled view: '"/Views/Shared/_Layout.cshtml"'.
+2022-11-15 20:40:41.677 +01:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-15 20:40:41.792 +01:00 [Debug] Hosting starting
+2022-11-15 20:40:41.839 +01:00 [Information] User profile is available. Using '"C:\Users\oyetu\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-15 20:40:41.844 +01:00 [Debug] Reading data from file '"C:\Users\oyetu\AppData\Local\ASP.NET\DataProtection-Keys\key-a5ea32b6-5207-4995-aea9-93e95585e6ff.xml"'.
+2022-11-15 20:40:41.861 +01:00 [Debug] Found key {a5ea32b6-5207-4995-aea9-93e95585e6ff}.
+2022-11-15 20:40:41.873 +01:00 [Debug] Considering key {a5ea32b6-5207-4995-aea9-93e95585e6ff} with expiration date 2023-02-13 15:19:45Z as default key.
+2022-11-15 20:40:41.876 +01:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2022-11-15 20:40:41.879 +01:00 [Debug] Decrypting secret element using Windows DPAPI.
+2022-11-15 20:40:41.880 +01:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2022-11-15 20:40:41.885 +01:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2022-11-15 20:40:41.889 +01:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2022-11-15 20:40:41.892 +01:00 [Debug] Using key {a5ea32b6-5207-4995-aea9-93e95585e6ff} as the default key.
+2022-11-15 20:40:41.893 +01:00 [Debug] Key ring with default key {a5ea32b6-5207-4995-aea9-93e95585e6ff} was loaded during application startup.
+2022-11-15 20:40:42.021 +01:00 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "1FE17F045332964A7A9FFD7A4147973CAF239315")
+2022-11-15 20:40:42.113 +01:00 [Information] Now listening on: "https://localhost:7228"
+2022-11-15 20:40:42.113 +01:00 [Information] Now listening on: "http://localhost:5228"
+2022-11-15 20:40:42.114 +01:00 [Debug] Loaded hosting startup assembly "CustomersApp"
+2022-11-15 20:40:42.114 +01:00 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-11-15 20:40:42.114 +01:00 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-11-15 20:40:42.114 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-15 20:40:42.114 +01:00 [Information] Hosting environment: "Development"
+2022-11-15 20:40:42.114 +01:00 [Information] Content root path: "C:\Users\oyetu\source\repos\CustomersApp\CustomersApp\"
+2022-11-15 20:40:42.114 +01:00 [Debug] Hosting started
+2022-11-15 20:40:42.259 +01:00 [Debug] Connection id ""0HMM78541DBT4"" received FIN.
+2022-11-15 20:40:42.259 +01:00 [Debug] Connection id ""0HMM78541DBT3"" received FIN.
+2022-11-15 20:40:42.278 +01:00 [Debug] Connection id ""0HMM78541DBT4"" accepted.
+2022-11-15 20:40:42.278 +01:00 [Debug] Connection id ""0HMM78541DBT3"" accepted.
+2022-11-15 20:40:42.280 +01:00 [Debug] Connection id ""0HMM78541DBT4"" started.
+2022-11-15 20:40:42.280 +01:00 [Debug] Connection id ""0HMM78541DBT3"" started.
+2022-11-15 20:40:42.372 +01:00 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-15 20:40:42.372 +01:00 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-15 20:40:42.415 +01:00 [Debug] Connection id ""0HMM78541DBT3"" stopped.
+2022-11-15 20:40:42.415 +01:00 [Debug] Connection id ""0HMM78541DBT4"" stopped.
+2022-11-15 20:40:42.420 +01:00 [Debug] Connection id ""0HMM78541DBT3"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-11-15 20:40:42.420 +01:00 [Debug] Connection id ""0HMM78541DBT4"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-11-15 20:40:42.715 +01:00 [Debug] Connection id ""0HMM78541DBT5"" accepted.
+2022-11-15 20:40:42.715 +01:00 [Debug] Connection id ""0HMM78541DBT5"" started.
+2022-11-15 20:40:42.755 +01:00 [Debug] Connection "0HMM78541DBT5" established using the following protocol: Tls13
+2022-11-15 20:40:42.823 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7228/ - -
+2022-11-15 20:40:42.874 +01:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-11-15 20:40:42.876 +01:00 [Debug] The request path "/" does not match a supported file type
+2022-11-15 20:40:42.911 +01:00 [Debug] 1 candidate(s) found for the request path '"/"'
+2022-11-15 20:40:42.920 +01:00 [Debug] Endpoint '"CustomersApp.Controllers.HomeController.Index (CustomersApp)"' with route pattern '"{controller=Home}/{action=Index}/{id?}"' is valid for the request path '"/"'
+2022-11-15 20:40:42.921 +01:00 [Debug] Request matched endpoint '"CustomersApp.Controllers.HomeController.Index (CustomersApp)"'
+2022-11-15 20:40:42.924 +01:00 [Information] Executing endpoint '"CustomersApp.Controllers.HomeController.Index (CustomersApp)"'
+2022-11-15 20:40:42.974 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "CustomersApp.Controllers.HomeController" ("CustomersApp").
+2022-11-15 20:40:42.975 +01:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-15 20:40:42.975 +01:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-11-15 20:40:42.975 +01:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-11-15 20:40:42.975 +01:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-15 20:40:42.975 +01:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-11-15 20:40:42.977 +01:00 [Debug] Executing controller factory for controller "CustomersApp.Controllers.HomeController" ("CustomersApp")
+2022-11-15 20:40:43.280 +01:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-15 20:40:43.449 +01:00 [Debug] Executed controller factory for controller "CustomersApp.Controllers.HomeController" ("CustomersApp")
+2022-11-15 20:40:43.456 +01:00 [Debug] View lookup cache miss for view '"Index"' in controller '"Home"'.
+2022-11-15 20:40:43.467 +01:00 [Information] Executing ViewResult, running view "Index".
+2022-11-15 20:40:43.474 +01:00 [Debug] The view path '"/Views/Home/Index.cshtml"' was found in 12.8898ms.
+2022-11-15 20:40:43.552 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:43.559 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "" and ""
+2022-11-15 20:40:43.560 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/"
+2022-11-15 20:40:43.564 +01:00 [Debug] An antiforgery cookie token was reused.
+2022-11-15 20:40:43.598 +01:00 [Debug] The temp data cookie ".AspNetCore.Mvc.CookieTempDataProvider" was not found.
+2022-11-15 20:40:43.600 +01:00 [Debug] View lookup cache miss for view '"_Layout"' in controller '"Home"'.
+2022-11-15 20:40:43.648 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:43.648 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "" and ""
+2022-11-15 20:40:43.648 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/"
+2022-11-15 20:40:43.650 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:43.650 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "" and ""
+2022-11-15 20:40:43.650 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/"
+2022-11-15 20:40:43.651 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:43.653 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "/Customers/Create" and ""
+2022-11-15 20:40:43.653 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/Customers/Create"
+2022-11-15 20:40:43.654 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:43.655 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "/Home/Privacy" and ""
+2022-11-15 20:40:43.655 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/Home/Privacy"
+2022-11-15 20:40:43.790 +01:00 [Information] Executed ViewResult - view "Index" executed in 336.1269ms.
+2022-11-15 20:40:43.805 +01:00 [Information] Executed action "CustomersApp.Controllers.HomeController.Index (CustomersApp)" in 828.8569ms
+2022-11-15 20:40:43.807 +01:00 [Information] Executed endpoint '"CustomersApp.Controllers.HomeController.Index (CustomersApp)"'
+2022-11-15 20:40:43.841 +01:00 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-11-15 20:40:43.872 +01:00 [Debug] Response markup was updated to include browser refresh script injection.
+2022-11-15 20:40:43.896 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7228/ - - - 200 - text/html;+charset=utf-8 1079.9093ms
+2022-11-15 20:40:43.917 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7228/CustomersApp.styles.css?v=U3LpxDsaaM5siTUqlfrFpaQLmd0MfyZSzVQ-lSMhNJs - -
+2022-11-15 20:40:43.917 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7228/_framework/aspnetcore-browser-refresh.js - -
+2022-11-15 20:40:43.924 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7228/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.4971ms
+2022-11-15 20:40:43.930 +01:00 [Information] Sending file. Request path: '"/CustomersApp.styles.css"'. Physical path: '"C:\Users\oyetu\source\repos\CustomersApp\CustomersApp\obj\Debug\net6.0\scopedcss\bundle\CustomersApp.styles.css"'
+2022-11-15 20:40:43.930 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7228/CustomersApp.styles.css?v=U3LpxDsaaM5siTUqlfrFpaQLmd0MfyZSzVQ-lSMhNJs - - - 200 1129 text/css 12.8767ms
+2022-11-15 20:40:43.945 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7228/_vs/browserLink - -
+2022-11-15 20:40:43.974 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7228/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.9351ms
+2022-11-15 20:40:46.289 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7228/Customers/Create - -
+2022-11-15 20:40:46.290 +01:00 [Debug] The request path "/Customers/Create" does not match a supported file type
+2022-11-15 20:40:46.293 +01:00 [Debug] 1 candidate(s) found for the request path '"/Customers/Create"'
+2022-11-15 20:40:46.293 +01:00 [Debug] Endpoint '"CustomersApp.Controllers.CustomersController.Create (CustomersApp)"' with route pattern '"{controller=Home}/{action=Index}/{id?}"' is valid for the request path '"/Customers/Create"'
+2022-11-15 20:40:46.293 +01:00 [Debug] Request matched endpoint '"CustomersApp.Controllers.CustomersController.Create (CustomersApp)"'
+2022-11-15 20:40:46.293 +01:00 [Information] Executing endpoint '"CustomersApp.Controllers.CustomersController.Create (CustomersApp)"'
+2022-11-15 20:40:46.294 +01:00 [Information] Route matched with "{action = \"Create\", controller = \"Customers\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create()" on controller "CustomersApp.Controllers.CustomersController" ("CustomersApp").
+2022-11-15 20:40:46.294 +01:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+2022-11-15 20:40:46.294 +01:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-11-15 20:40:46.294 +01:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-11-15 20:40:46.294 +01:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+2022-11-15 20:40:46.294 +01:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2022-11-15 20:40:46.295 +01:00 [Debug] Executing controller factory for controller "CustomersApp.Controllers.CustomersController" ("CustomersApp")
+2022-11-15 20:40:46.303 +01:00 [Debug] Executed controller factory for controller "CustomersApp.Controllers.CustomersController" ("CustomersApp")
+2022-11-15 20:40:46.304 +01:00 [Debug] View lookup cache miss for view '"Create"' in controller '"Customers"'.
+2022-11-15 20:40:46.305 +01:00 [Information] Executing ViewResult, running view "Create".
+2022-11-15 20:40:46.305 +01:00 [Debug] The view path '"/Views/Customers/Create.cshtml"' was found in 1.0215ms.
+2022-11-15 20:40:46.308 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:46.308 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "/Customers/Create" and ""
+2022-11-15 20:40:46.308 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/Customers/Create"
+2022-11-15 20:40:46.308 +01:00 [Debug] An antiforgery cookie token was reused.
+2022-11-15 20:40:46.318 +01:00 [Debug] The temp data cookie ".AspNetCore.Mvc.CookieTempDataProvider" was not found.
+2022-11-15 20:40:46.318 +01:00 [Debug] View lookup cache miss for view '"_Layout"' in controller '"Customers"'.
+2022-11-15 20:40:46.319 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:46.319 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "" and ""
+2022-11-15 20:40:46.319 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/"
+2022-11-15 20:40:46.319 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:46.319 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "" and ""
+2022-11-15 20:40:46.319 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/"
+2022-11-15 20:40:46.319 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:46.319 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "/Customers/Create" and ""
+2022-11-15 20:40:46.319 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/Customers/Create"
+2022-11-15 20:40:46.319 +01:00 [Debug] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address "Microsoft.AspNetCore.Routing.RouteValuesAddress"
+2022-11-15 20:40:46.319 +01:00 [Debug] Successfully processed template "{controller=Home}/{action=Index}/{id?}" for "Route: {controller=Home}/{action=Index}/{id?}" resulting in "/Home/Privacy" and ""
+2022-11-15 20:40:46.319 +01:00 [Debug] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result "/Home/Privacy"
+2022-11-15 20:40:46.321 +01:00 [Debug] View lookup cache miss for view '"_ValidationScriptsPartial"' in controller '"Customers"'.
+2022-11-15 20:40:46.332 +01:00 [Information] Executed ViewResult - view "Create" executed in 28.3158ms.
+2022-11-15 20:40:46.333 +01:00 [Information] Executed action "CustomersApp.Controllers.CustomersController.Create (CustomersApp)" in 38.8578ms
+2022-11-15 20:40:46.333 +01:00 [Information] Executed endpoint '"CustomersApp.Controllers.CustomersController.Create (CustomersApp)"'
+2022-11-15 20:40:46.337 +01:00 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-11-15 20:40:46.338 +01:00 [Debug] Response markup was updated to include browser refresh script injection.
+2022-11-15 20:40:46.338 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7228/Customers/Create - - - 200 - text/html;+charset=utf-8 48.6395ms
+2022-11-15 20:40:46.368 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7228/_framework/aspnetcore-browser-refresh.js - -
+2022-11-15 20:40:46.368 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7228/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 0.3198ms
+2022-11-15 20:40:46.380 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7228/_vs/browserLink - -
+2022-11-15 20:40:46.390 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7228/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.8597ms
